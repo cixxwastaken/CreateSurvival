@@ -1,0 +1,30 @@
+{
+  "parent": "createsurvival:recipes/root",
+  "criteria": {
+    "has_blaze_cake": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "create:blaze_cake" }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "createsurvival:purified_water_flask"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blaze_cake",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "createsurvival:purified_water_flask"
+    ]
+  }
+}

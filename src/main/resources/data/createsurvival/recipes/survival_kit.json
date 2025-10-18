@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " FA",
+    "BPB",
+    " AB"
+  ],
+  "key": {
+    "F": { "item": "createsurvival:field_ration" },
+    "A": { "item": "create:andesite_alloy" },
+    "P": { "item": "createsurvival:purified_water_flask" },
+    "B": { "item": "minecraft:bundle" }
+  },
+  "result": {
+    "item": "createsurvival:survival_kit"
+  }
+}

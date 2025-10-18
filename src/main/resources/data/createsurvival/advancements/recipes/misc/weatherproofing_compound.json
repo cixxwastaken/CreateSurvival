@@ -1,0 +1,30 @@
+{
+  "parent": "createsurvival:recipes/root",
+  "criteria": {
+    "has_obsidian_dust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "create:powdered_obsidian" }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "createsurvival:weatherproofing_compound"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_obsidian_dust",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "createsurvival:weatherproofing_compound"
+    ]
+  }
+}

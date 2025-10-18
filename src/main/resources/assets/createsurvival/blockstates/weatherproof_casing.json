@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "weathering=0": { "model": "createsurvival:block/weatherproof_casing_0" },
+    "weathering=1": { "model": "createsurvival:block/weatherproof_casing_1" },
+    "weathering=2": { "model": "createsurvival:block/weatherproof_casing_2" },
+    "weathering=3": { "model": "createsurvival:block/weatherproof_casing_3" }
+  }
+}

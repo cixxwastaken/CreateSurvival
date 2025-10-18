@@ -1,0 +1,30 @@
+{
+  "parent": "createsurvival:recipes/root",
+  "criteria": {
+    "has_kelp": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "minecraft:dried_kelp" }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "createsurvival:field_ration"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_kelp",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "createsurvival:field_ration"
+    ]
+  }
+}

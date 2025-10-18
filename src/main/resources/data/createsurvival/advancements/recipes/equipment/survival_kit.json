@@ -1,0 +1,30 @@
+{
+  "parent": "createsurvival:recipes/root",
+  "criteria": {
+    "has_bundle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "minecraft:bundle" }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "createsurvival:survival_kit"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bundle",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "createsurvival:survival_kit"
+    ]
+  }
+}

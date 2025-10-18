@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    { "item": "minecraft:cooked_beef" },
+    { "item": "minecraft:bread" },
+    { "item": "minecraft:dried_kelp" }
+  ],
+  "result": {
+    "item": "createsurvival:field_ration"
+  }
+}

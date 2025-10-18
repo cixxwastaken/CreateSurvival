@@ -1,0 +1,31 @@
+{
+  "parent": "createsurvival:recipes/root",
+  "criteria": {
+    "has_rust": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "createsurvival:rust_flakes" }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "createsurvival:rust_flakes_recycling"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rust",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "createsurvival:rust_flakes_recycling",
+      "createsurvival:rust_flakes_recycling_blasting"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:glass_bottle" },
+    { "item": "minecraft:snowball" },
+    { "item": "create:blaze_cake" }
+  ],
+  "result": {
+    "item": "createsurvival:purified_water_flask"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "createsurvival:rust_flakes"
+  },
+  "result": "minecraft:iron_nugget",
+  "experience": 0.35,
+  "cookingtime": 120
+}

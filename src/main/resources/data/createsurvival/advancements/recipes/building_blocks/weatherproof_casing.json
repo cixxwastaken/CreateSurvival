@@ -1,0 +1,30 @@
+{
+  "parent": "createsurvival:recipes/root",
+  "criteria": {
+    "has_brass_sheet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "item": "create:brass_sheet" }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "createsurvival:weatherproof_casing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brass_sheet",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "createsurvival:weatherproof_casing"
+    ]
+  }
+}
